@@ -1,0 +1,18 @@
+ section{
+            margin-top: 60px;
+            padding: 40px 60px;
+            flex: 1 ;
+            height:1000px;
+            /* width: 100%; */
+            background-color: rgb(196, 192, 192);
+     }
+
+     .boxHome{
+        border-left-color: aqua;
+        transition: all 2s linear ease-in;
+     }
+     
+     .boxHome:hover{
+       cursor:pointer;
+       transform: translateX(500px);
+     }
